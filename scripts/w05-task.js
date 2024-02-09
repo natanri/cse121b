@@ -3,7 +3,7 @@
 //const { json } = require("body-parser");
 
 /* Declare and initialize global variables */
-const templesElement = document.getElementById('templesDiv');
+const templesElement = document.getElementById('temples');
 
 let templesList = [];
 
