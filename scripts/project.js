@@ -1,3 +1,12 @@
+let currentYear = 2024;
+let yearElement = document.querySelector('#year');
+document.getElementById('year').textContent = `${currentYear}`;
+
+// copyright year
+document.querySelector('#year').textContent = new Date().getFullYear();
+
+
+
 /**
  * This section call choose the id pokemon list and fill it with data from json file.
  * With fetch I retrieve  all the data of each pokemon, then I create a new Pokemon object 
@@ -87,3 +96,5 @@ btnHeader.forEach(button => button.addEventListener("click", (event) => {
     }
 
 }));
+
+
